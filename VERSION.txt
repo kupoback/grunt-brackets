@@ -1,0 +1,48 @@
+0.2.7
+------------------------
+-  Fix MacOS task running issue
+
+0.2.5
+------------------------
+
+- Reload tasks when project is changed
+- Use shortcut [Ctrl-Alt-D] to run default task
+- Turn Grunt icon "on" when tasks are being loaded 
+- Show console message when no task file is found
+
+
+0.2.4
+------------------------
+
+- Fixed and simplified tasks and console panel sizes
+
+0.2.3
+------------------------
+
+- Turn Grunt icon "on" when a task is running, so you can close the panel and know that it's still running
+
+0.2.2 
+------------------------
+
+- Clear console button
+- Bold style for alias task
+- Alias task will be shown in the top of panel
+- Settings for save relative path, if gruntfile.js is not locate in root of the project
+
+0.2.1
+------------------------
+
+- Ability to kill running task
+
+0.2.0
+------------------------
+
+- Console view
+- Show task running status
+- Eliminate the need for global  'grunt-cli' ( tested on Windows only )
+
+0.1.2
+------------------------
+
+- Re-style the task list
+- Change task execution from double click to single click

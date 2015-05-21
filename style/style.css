@@ -1,0 +1,72 @@
+/* Toolbar icon */
+#grunt-toolbar-icon {
+  background: url("../assets/grunt.png") no-repeat 0 0;
+}
+
+#grunt-toolbar-icon.on {
+   background: url("../assets/grunt-on.png") no-repeat 0 0;
+}
+
+.task-list
+{
+	height: calc(100% - 37px);
+	position:relative;
+}
+
+
+#tasks, #grunt-console
+{
+	bottom:0;
+	height: auto;
+	overflow:auto;
+	position:absolute;
+	top:0;
+}
+
+#tasks {
+	width:200px;
+}
+
+#grunt-console
+{
+	border-left: 1px solid black;
+	left:200px;
+	padding-left:10px;
+	right: 0;
+}
+
+
+.task:hover
+{
+  color: black;
+  cursor: pointer;
+}
+
+
+
+
+.grunt-message
+{
+	margin-left: 5px;
+	display: inline-block;
+}
+
+.grunt-hide 
+{
+	display: none;
+}
+
+.grunt-console
+{
+		
+}
+
+.task-alias { font-weight: 800; }
+.path
+{
+    position: absolute;
+    right: 30px;
+    top: 36%;
+    margin-top: -10px;
+    width: 250px;
+}
